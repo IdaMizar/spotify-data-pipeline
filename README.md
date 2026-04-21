@@ -39,3 +39,12 @@ Spotify API → Extract (Python) → Transform (Pandas) → Load (CSV)
 - Add multiple artists  
 - Store data in SQL database  
 - Automate pipeline  
+
+
+
+![output](data/output.png)
+
+## 🚀 How to run
+
+pip install -r requirements.txt  
+py scripts/extract.py

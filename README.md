@@ -1,42 +1,41 @@
-# Spotify Data Pipeline
+# 🎧 Spotify Data Pipeline
 
-## Overview
-This project is a simple end-to-end data pipeline that extracts, processes, and analyzes music listening data using the Spotify API.  
-The goal is to simulate a real-world data engineering workflow by transforming raw data into structured insights.
+## 📌 Overview
+This project implements a simple end-to-end data pipeline using the Spotify API.
 
----
-
-## Project Goals
-- Extract data from Spotify API  
-- Build an ETL pipeline using Python  
-- Store and structure data for analysis  
-- Generate simple insights about listening habits  
+It extracts artist data, transforms it into a structured format, and stores it for analysis.
 
 ---
 
-## Tech Stack
+## ⚙️ Pipeline
+Spotify API → Extract (Python) → Transform (Pandas) → Load (CSV)
+
+---
+
+## 📊 Example Output
+
+| artist_name | artist_id | spotify_url |
+|------------|----------|-------------|
+| Drake | 3TVXtAsR1Inumwj472S9r4 | https://open.spotify.com/... |
+
+---
+
+## 🛠️ Tech Stack
 - Python  
 - Pandas  
-- SQL (PostgreSQL optional)  
-- Spotify API  
+- REST API (Spotify)
 
 ---
 
-## Pipeline Architecture
-Spotify API → Python Extraction → Data Cleaning & Transformation → Storage → Analysis
+## 🧠 What I learned
+- Working with REST APIs  
+- Building ETL pipelines  
+- Data transformation with pandas  
+- Structuring data for analysis  
 
 ---
 
-## Features
-- Extract user listening history (tracks, artists, albums)  
-- Clean and structure raw JSON data  
-- Transform data into analysis-ready format  
-- Perform basic analytics:
-  - Top artists  
-  - Most played tracks  
-  - Listening trends  
-
----
-
-## Project Structure
-
+## 🚀 Future Improvements
+- Add multiple artists  
+- Store data in SQL database  
+- Automate pipeline  

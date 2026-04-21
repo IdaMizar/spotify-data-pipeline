@@ -20,7 +20,7 @@ Spotify API → Extract (Python) → Transform (Pandas) → Load (CSV)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Python  
 - Pandas  
 - REST API (Spotify)

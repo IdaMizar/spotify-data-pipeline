@@ -1,18 +1,18 @@
-# 🎧 Spotify Data Pipeline
+# Spotify Data Pipeline
 
-## 📌 Overview
+## Overview
 This project implements a simple end-to-end data pipeline using the Spotify API.
 
 It extracts artist data, transforms it into a structured format, and stores it for analysis.
 
 ---
 
-## ⚙️ Pipeline
+##  Pipeline
 Spotify API → Extract (Python) → Transform (Pandas) → Load (CSV)
 
 ---
 
-## 📊 Example Output
+##  Example Output
 
 | artist_name | artist_id | spotify_url |
 |------------|----------|-------------|
@@ -27,7 +27,7 @@ Spotify API → Extract (Python) → Transform (Pandas) → Load (CSV)
 
 ---
 
-## 🧠 What I learned
+##  What I learned
 - Working with REST APIs  
 - Building ETL pipelines  
 - Data transformation with pandas  
@@ -35,7 +35,7 @@ Spotify API → Extract (Python) → Transform (Pandas) → Load (CSV)
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Add multiple artists  
 - Store data in SQL database  
 - Automate pipeline  
@@ -44,7 +44,7 @@ Spotify API → Extract (Python) → Transform (Pandas) → Load (CSV)
 
 ![output](data/output.png)
 
-## 🚀 How to run
+##  How to run
 
 pip install -r requirements.txt  
 py scripts/extract.py
